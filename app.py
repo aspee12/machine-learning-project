@@ -8,6 +8,7 @@ model = load_model("tourism_revenue_model.h5")
 
 # Streamlit UI
 st.title("Tourism Revenue Prediction")
+st.write("Project Author: [Sonam Phuntsho (sphuntsho900@gmail.com)]")  # Display author name
 st.write("Enter GDP per capita to predict tourism revenue for a specific year.")
 
 # User input for GDP per capita
